@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp">
+
+
+    <AutoCompleteTextView
+        android:id="@+id/TextViewAuto"
+        android:layout_width="151dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="8dp"
+        android:hint="Ders girin"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonSil"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/sil"
+        android:fontFamily="@font/capriola"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/kredilerSpinner"
+        android:layout_width="115dp"
+        android:layout_height="46dp"
+        android:entries="@array/krediler"
+        android:scrollbarSize="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/TextViewAuto"
+        app:layout_constraintStart_toEndOf="@+id/TextViewAuto"
+        app:layout_constraintTop_toTopOf="@+id/TextViewAuto"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/harfNotlarSpinner"
+        android:layout_width="86dp"
+        android:layout_height="46dp"
+        android:entries="@array/harfNotlar"
+        android:scrollbarSize="3dp"
+        app:layout_constraintBottom_toBottomOf="@+id/TextViewAuto"
+        app:layout_constraintEnd_toStartOf="@+id/buttonSil"
+        app:layout_constraintStart_toEndOf="@+id/kredilerSpinner"
+        app:layout_constraintTop_toTopOf="@+id/TextViewAuto"
+        app:layout_constraintVertical_bias="0.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
