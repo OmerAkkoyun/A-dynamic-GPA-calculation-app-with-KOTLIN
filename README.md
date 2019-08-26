@@ -13,3 +13,6 @@
 ![otoyazi](https://user-images.githubusercontent.com/33864154/63677528-cfe02900-c7f5-11e9-91ec-c8f87280dadc.png)
 
 ![ortalama](https://user-images.githubusercontent.com/33864154/63677466-b0490080-c7f5-11e9-91ba-b7182e824114.png)
+
+
+Lisans : Omer Akkoyun
