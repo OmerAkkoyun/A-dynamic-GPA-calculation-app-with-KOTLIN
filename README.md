@@ -1,4 +1,4 @@
-# Kotlin ile Agno Hesaplama Uygulaması
+# Kotlin ile Agno Hesaplama Uygulaması 
 ### Test Video :https://www.youtube.com/watch?v=-CmwSjyv2j4
 
 #### (ActivitySplash) animasyonlu giriş tasarımına sahip, dinamik bir agno hesaplama uygulaması.
