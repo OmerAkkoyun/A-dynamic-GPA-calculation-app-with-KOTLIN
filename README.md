@@ -1,9 +1,10 @@
 # GPA Calculation Application with KOTLIN
+- Application Language : Turkish
 #### Google Play : 
 https://play.google.com/store/apps/details?id=com.omerakkoyun.agnohesaplama
 ### Test Video :https://www.youtube.com/watch?v=-CmwSjyv2j4
 
-#### (ActivitySplash) A dynamic agno calculation app with animated design.
+#### (ActivitySplash) A dynamic agno calculation app with animated design. 
 
 ![](https://media.giphy.com/media/LOKww2olH7FUA56IfT/giphy.gif)
 <br><hr>
